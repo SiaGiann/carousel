@@ -1,0 +1,97 @@
+#carousel {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.h-64 {
+    height: 16rem;
+}
+
+.bg-blue-dark {
+    background-color: #052f45;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-blue-light {
+    color: lightblue;
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.px-1 {
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
+.px-13 {
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+}
+
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.-m-t-6 {
+    margin-top: -1.5rem;
+}
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .lg-flex-row {
+        flex-direction: row;
+    }
+
+    .lg-w-half {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
